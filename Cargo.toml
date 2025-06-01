@@ -1,0 +1,18 @@
+[package]
+name = "derive_flat_debug"
+version = "0.1.0"
+edition = "2024"
+description = "Derive macro for flatter enum debug output"
+authors = ["cuppachino"]
+homepage = "https://github.com/cuppachino/derive_flat_debug"
+repository = "https://github.com/cuppachino/derive_flat_debug"
+readme = "README.md"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "2.0"
+quote = "1.0"
+proc-macro2 = "1.0"
